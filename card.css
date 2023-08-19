@@ -1,0 +1,129 @@
+.container {
+    height: 360px;
+    width: 550px;
+    border: 2px solid rgb(214, 205, 205);
+}
+
+.container1 {
+    background-color: rgba(56, 59, 56, 0.5);
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    height: 70%;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.textdiv {
+    padding-right: 150px;
+    color: white;
+    font-size: larger;
+}
+
+.description {
+    padding-right: 200px;
+}
+
+.button {
+    height: 30px;
+    width: 100px;
+    background-color: rgb(61, 183, 128);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    margin-right: 30px;
+}
+
+.container2 {
+    position: relative;
+    height: 25%;
+    background-color: darkolivegreen;
+    background-color: white;
+}
+
+.content {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    text-align: center;
+}
+
+.number {    
+    font-weight: bolder;
+    color: red;
+    font-size: x-large;
+}
+
+.para, .parag {
+    font-size: large;
+}
+
+.amount {
+    font-weight: bolder;
+    color: rgb(6, 160, 65);
+    font-size: x-large;
+}
+
+.container3 {
+    height: 50%;
+    background-color: white;
+}
+
+.topleft, .topright, .botleft, .botright {
+    height: 49%;
+    width: 49.7%;
+    border: 1px solid rgb(214, 205, 205);
+}
+
+.topleft {
+    float: left;
+    align-items: center;
+}
+
+.automation, .report, .activity, .settings {
+    height: 90%;
+    width: 95%;
+    margin: 2%; 
+    border: none;
+}
+
+.automation:hover{
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.report:hover{
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.activity:hover{
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.settings:hover{
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.topright {
+    float: right;
+   
+}
+
+
+.botleft {
+    
+    float: left;
+}
+
+.botright {
+    float: right;
+    
+}
